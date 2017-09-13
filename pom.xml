@@ -14,10 +14,17 @@
 	</parent>
 
 	<dependencies>
-	<!-- 包含spring-boot核心包 ，web应用相关包-->
+		<!-- 包含spring-boot核心包 ，web应用相关包 -->
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-web</artifactId>
 		</dependency>
+		<!-- 引入swagger2 -->
+		<dependency>
+			<groupId>com.tracy</groupId>
+			<artifactId>spring-boot-starter-swagger2</artifactId>
+			<version>0.0.1-SNAPSHOT</version>
+		</dependency>
+
 	</dependencies>
 </project>
